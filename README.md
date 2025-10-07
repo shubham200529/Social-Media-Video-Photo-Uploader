@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Social Media Video & Photo Uploader
+
+A web app for uploading videos, user authentication, and transforming photos for social media covers (Instagram, Facebook, Twitter).
+
+## Features
+
+- Secure video upload
+- User authentication (protected uploads)
+- Automatic transformation of images for:
+  - Instagram (portrait)
+  - Facebook cover
+  - Twitter cover
+
+## Tech Stack
+
+- Next.js / React
+- Tailwind CSS
+- ImageKit / Cloudinary (for uploads and transformations)
+- Clerk / Custom Auth (for authentication)
+
+## Usage
+
+1. Register or log in to securely upload your photos/videos.
+2. Upload videos and images via a simple UI.
+3. Instantly preview and download platform-optimized versions for major social media sites.
+
+## How It Works
+
+- All uploads are protected with authentication.
+- Images are transformed to exact specs for Instagram, Facebook, and Twitter.
+- Users can download each version directly.
+
+## Screenshots
+
+_Add screenshots or GIFs of your app here!_
+
+---
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository.
+2. Set up environment variables for your upload and auth providers.
+3. Run `npm install` then `npm run dev` to start locally.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
